@@ -1,3 +1,4 @@
 #!/bin/bash -x
 
-echo "Arithmetic Computation & Sorting"
+read -p "Enter values fro a, b & c:" a b c
+echo $a $b $c
