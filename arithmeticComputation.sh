@@ -1,5 +1,7 @@
 #!/bin/bash -x
 
 read -p "Enter values fro a, b & c:" a b c
-echo $((( $a * $b ) + $c ))
+echo "first compute: " $(( $a + ($b  * $c )))
+echo "second compute: "$((( $a * $b ) + $c ))
+echo "third compute: "$(( $c + ( $a  / $b )))
 
