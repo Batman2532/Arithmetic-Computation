@@ -24,7 +24,5 @@ do
         fi
     done
 done
-for ((k=a-1; k>=0; k--))
-do
-echo ${array[k]}
-done
+echo ${array[@]}
+
